@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160FD3A130242CE9001C1096 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160FD3A030242CE9001C1096 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		160FD3A330242CEE001C1096 /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160FD3A230242CEE001C1096 /* AdServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		160FD3A530242CF3001C1096 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160FD3A430242CF3001C1096 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		160FD3A730242CFB001C1096 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160FD3A630242CFB001C1096 /* AppTrackingTransparency.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		160FD3A930242D04001C1096 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160FD3A830242D04001C1096 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		160FD3AB30242D14001C1096 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160FD3AA30242D14001C1096 /* LocalAuthentication.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6B815BABAF330EF3F3F6DD43 /* Pods_HelixFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B183BAA3E8E94E13289028D4 /* Pods_HelixFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		160FD15130242811001C1096 /* HelixFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelixFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		160FD3A030242CE9001C1096 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		160FD3A230242CEE001C1096 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		160FD3A430242CF3001C1096 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		160FD3A630242CFB001C1096 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		160FD3A830242D04001C1096 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		160FD3AA30242D14001C1096 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		38483BD291CBC32F2C8BD679 /* Pods-HelixFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelixFoundation.release.xcconfig"; path = "Target Support Files/Pods-HelixFoundation/Pods-HelixFoundation.release.xcconfig"; sourceTree = "<group>"; };
+		9D356E15CC6C3F9EDD85950B /* Pods-HelixFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelixFoundation.debug.xcconfig"; path = "Target Support Files/Pods-HelixFoundation/Pods-HelixFoundation.debug.xcconfig"; sourceTree = "<group>"; };
+		B183BAA3E8E94E13289028D4 /* Pods_HelixFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelixFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		160FD16830242813001C1096 /* Exceptions for "HelixFoundation" folder in "HelixFoundation" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 160FD15030242811001C1096 /* HelixFoundation */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		160FD15330242811001C1096 /* HelixFoundation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				160FD16830242813001C1096 /* Exceptions for "HelixFoundation" folder in "HelixFoundation" target */,
+			);
+			path = HelixFoundation;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		160FD14E30242811001C1096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160FD3AB30242D14001C1096 /* LocalAuthentication.framework in Frameworks */,
+				160FD3A930242D04001C1096 /* StoreKit.framework in Frameworks */,
+				160FD3A730242CFB001C1096 /* AppTrackingTransparency.framework in Frameworks */,
+				160FD3A530242CF3001C1096 /* AdSupport.framework in Frameworks */,
+				160FD3A330242CEE001C1096 /* AdServices.framework in Frameworks */,
+				160FD3A130242CE9001C1096 /* WebKit.framework in Frameworks */,
+				6B815BABAF330EF3F3F6DD43 /* Pods_HelixFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160FD14830242811001C1096 = {
+			isa = PBXGroup;
+			children = (
+				160FD15330242811001C1096 /* HelixFoundation */,
+				160FD15230242811001C1096 /* Products */,
+				AD7CD91F8724E379528D7396 /* Pods */,
+				602C0389D2EC3A1D5EF39A23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		160FD15230242811001C1096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				160FD15130242811001C1096 /* HelixFoundation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		602C0389D2EC3A1D5EF39A23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				160FD3AA30242D14001C1096 /* LocalAuthentication.framework */,
+				160FD3A830242D04001C1096 /* StoreKit.framework */,
+				160FD3A630242CFB001C1096 /* AppTrackingTransparency.framework */,
+				160FD3A430242CF3001C1096 /* AdSupport.framework */,
+				160FD3A230242CEE001C1096 /* AdServices.framework */,
+				160FD3A030242CE9001C1096 /* WebKit.framework */,
+				B183BAA3E8E94E13289028D4 /* Pods_HelixFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD7CD91F8724E379528D7396 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D356E15CC6C3F9EDD85950B /* Pods-HelixFoundation.debug.xcconfig */,
+				38483BD291CBC32F2C8BD679 /* Pods-HelixFoundation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		160FD15030242811001C1096 /* HelixFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160FD16930242813001C1096 /* Build configuration list for PBXNativeTarget "HelixFoundation" */;
+			buildPhases = (
+				2E139182108D53C78ADF4B44 /* [CP] Check Pods Manifest.lock */,
+				160FD14D30242811001C1096 /* Sources */,
+				160FD14E30242811001C1096 /* Frameworks */,
+				160FD14F30242811001C1096 /* Resources */,
+				71040E255ECC6463446DF8CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				160FD15330242811001C1096 /* HelixFoundation */,
+			);
+			name = HelixFoundation;
+			productName = HelixFoundation;
+			productReference = 160FD15130242811001C1096 /* HelixFoundation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		160FD14930242811001C1096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					160FD15030242811001C1096 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 160FD14C30242811001C1096 /* Build configuration list for PBXProject "HelixFoundation" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 160FD14830242811001C1096;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 160FD15230242811001C1096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				160FD15030242811001C1096 /* HelixFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		160FD14F30242811001C1096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E139182108D53C78ADF4B44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelixFoundation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71040E255ECC6463446DF8CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelixFoundation/Pods-HelixFoundation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelixFoundation/Pods-HelixFoundation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelixFoundation/Pods-HelixFoundation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		160FD14D30242811001C1096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		160FD16A30242813001C1096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D356E15CC6C3F9EDD85950B /* Pods-HelixFoundation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HelixFoundation/HelixFoundation.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7T56G5HG76;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelixFoundation/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lumanog Cash";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To complete necessary security checks, Lumanog Cash requires camera authorization. Captured content is used only for verification and handled according to applicable rules.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "To strengthen account protection, Lumanog Cash hopes to obtain your contacts access permission. This will support us in performing necessary identity confirmation. We highly value user privacy and security. Contact information is used only for security-related verification. The data will no longer be retained after verification. You can adjust this authorization at any time in Settings.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To enhance account security, this app supports Face ID for identity verification. This feature is used only to confirm the user's identity. Facial information is handled by the device's security mechanisms and is not used by the app for unrelated purposes or shared with third parties.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To provide appropriate loan amounts based on different regions, Lumanog Cash would like to obtain location permission. We will strictly protect your location privacy. This information is used only to recommend suitable products and will not be retained after processing.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Lumanog Cash would like your permission to use the Identifier for Advertisers (IDFA). After authorizing IDFA, Lumanog Cash can provide you with more suitable loan amount suggestions based on your preferences. Lumanog Cash undertakes not to use data obtained via IDFA for any form of personal identity reconstruction or cross-app tracking, nor will it sell the data to any data brokers.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumanog.mirthal.scope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = lumanogPro;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		160FD16B30242813001C1096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38483BD291CBC32F2C8BD679 /* Pods-HelixFoundation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HelixFoundation/HelixFoundation.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7T56G5HG76;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelixFoundation/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lumanog Cash";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To complete necessary security checks, Lumanog Cash requires camera authorization. Captured content is used only for verification and handled according to applicable rules.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "To strengthen account protection, Lumanog Cash hopes to obtain your contacts access permission. This will support us in performing necessary identity confirmation. We highly value user privacy and security. Contact information is used only for security-related verification. The data will no longer be retained after verification. You can adjust this authorization at any time in Settings.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To enhance account security, this app supports Face ID for identity verification. This feature is used only to confirm the user's identity. Facial information is handled by the device's security mechanisms and is not used by the app for unrelated purposes or shared with third parties.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To provide appropriate loan amounts based on different regions, Lumanog Cash would like to obtain location permission. We will strictly protect your location privacy. This information is used only to recommend suitable products and will not be retained after processing.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Lumanog Cash would like your permission to use the Identifier for Advertisers (IDFA). After authorizing IDFA, Lumanog Cash can provide you with more suitable loan amount suggestions based on your preferences. Lumanog Cash undertakes not to use data obtained via IDFA for any form of personal identity reconstruction or cross-app tracking, nor will it sell the data to any data brokers.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumanog.mirthal.scope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = lumanogPro;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		160FD16C30242813001C1096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		160FD16D30242813001C1096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		160FD14C30242811001C1096 /* Build configuration list for PBXProject "HelixFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160FD16C30242813001C1096 /* Debug */,
+				160FD16D30242813001C1096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160FD16930242813001C1096 /* Build configuration list for PBXNativeTarget "HelixFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160FD16A30242813001C1096 /* Debug */,
+				160FD16B30242813001C1096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 160FD14930242811001C1096 /* Project object */;
+}

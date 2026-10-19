@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>apaylater</string>
+		<string>billease</string>
+		<string>megapeso</string>
+		<string>cashalo</string>
+		<string>hcphapp</string>
+		<string>Cashola</string>
+		<string>juanhand</string>
+		<string>pesoloan</string>
+		<string>skyro</string>
+		<string>linkedin</string>
+		<string>com.jobstreet.jobstreet</string>
+		<string>gcash</string>
+		<string>bpiRuby</string>
+		<string>seabankph</string>
+		<string>unionbank</string>
+		<string>com.rcbc.mobile.sit</string>
+		<string>landbank</string>
+		<string>tonikapp</string>
+		<string>paymaya</string>
+		<string>gotyme</string>
+		<string>paypal</string>
+		<string>remitly</string>
+		<string>arionplay</string>
+		<string>fafafagold</string>
+		<string>slots.games.vegas.night.casino</string>
+		<string>cashmancasino</string>
+		<string>itms-beta</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIDesignRequiresCompatibility</key>
+	<true/>
+</dict>
+</plist>

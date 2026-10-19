@@ -1,0 +1,58 @@
+PODS:
+  - Adjust (5.5.2):
+    - Adjust/Adjust (= 5.5.2)
+  - Adjust/Adjust (5.5.2):
+    - AdjustSignature (= 3.62.0)
+  - AdjustSignature (3.62.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - IQKeyboardManager (6.5.19)
+  - Masonry (1.1.0)
+  - SDWebImage (5.21.5):
+    - SDWebImage/Core (= 5.21.5)
+  - SDWebImage/Core (5.21.5)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Adjust (= 5.5.2)
+  - AFNetworking
+  - IQKeyboardManager
+  - Masonry
+  - SDWebImage
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - AdjustSignature
+    - AFNetworking
+    - IQKeyboardManager
+    - Masonry
+    - SDWebImage
+    - YYModel
+
+SPEC CHECKSUMS:
+  Adjust: b413bea97bf8056adf741481c4deab34e2d9de64
+  AdjustSignature: 682d788005a6e21557913a9dc0381ae8d943ca0a
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: e9c98383c7572d713c1a0d7dd2783b10599b9838
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 3550d062a46e48bb43eed38c42fde97701358ba8
+
+COCOAPODS: 1.16.2
