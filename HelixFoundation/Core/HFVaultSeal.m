@@ -122,10 +122,10 @@ static BOOL HFQxLooksHex(NSString *s) {
 + (NSString *)kGammaToken { return @"jo0u78qetbls"; }
 + (NSString *)kKappaBaseURL { return @"https://api.lumanogcash.com"; }
 
-+ (NSString *)kHrefPrivacy { return @"https://www.lumanogkonstruct.com/PrivacyPolicy.html"; }
-+ (NSString *)kHrefAgreement { return @"https://www.lumanogkonstruct.com/ServiceAgreement.html"; }
-+ (NSString *)kHrefLoanTerms { return @"https://www.lumanogkonstruct.com/loanContract.html"; }
-+ (NSString *)kHrefContact { return @"https://www.lumanogkonstruct.com/contactUs.html"; }
++ (NSString *)kHrefPrivacy { return @"https://info.lumanogkonstruct.com/info/PrivacyPolicy.html"; }
++ (NSString *)kHrefAgreement { return @"https://info.lumanogkonstruct.com/info/ServiceAgreement.html"; }
++ (NSString *)kHrefLoanTerms { return @"https://info.lumanogkonstruct.com/info/loanContract.html"; }
++ (NSString *)kHrefContact { return @"https://info.lumanogkonstruct.com/info/contactUs.html"; }
 + (NSString *)kHrefKYC { return @"https://info.lumanogkonstruct.com/dist/kyc/index.html"; }
 + (NSString *)kHrefProductApply { return @"https://info.lumanogkonstruct.com/dist/product/index.html"; }
 + (NSString *)kHrefOrderDetails { return @"https://info.lumanogkonstruct.com/dist/order/index.html"; }
